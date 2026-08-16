@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>GCPS_Chromebook_Labeler</AssemblyName>
+    <RootNamespace>GCPS_Chromebook_Labeler</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DYMO.Connect.SDK" Version="1.6.0" />
+    <PackageReference Include="DYMO.CrossPlatform.Common.Windows" Version="1.6.0" />
+    <PackageReference Include="DYMO.LabelAPI.Windows" Version="1.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Labels\*.dymo"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+  </ItemGroup>
+</Project>
