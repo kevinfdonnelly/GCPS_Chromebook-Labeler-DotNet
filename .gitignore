@@ -8,4 +8,4 @@ obj/
 .DS_Store
 Thumbs.db
 publish/
-publish-single/
+publish-singlefile/
