@@ -48,7 +48,7 @@ COUNTY_BARCODE
 COUNTY_ID_TEXT
 ```
 
-The current DYMO 1.6.0 WPF sample uses Twin Turbo roll values `0=Auto`, `1=Left`, `2=Right`. This project therefore sends 30332 to `1` and 30336 to `2`.
+The current DYMO 1.6.0 WPF sample uses Twin Turbo roll values `0=Auto`, `1=Left`, `2=Right`. This project therefore sends 30332 to `2` and 30336 to `1`.
 
 ## Publish
 
